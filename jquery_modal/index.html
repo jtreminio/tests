@@ -5,15 +5,10 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
 
     <link href="css/ui-lightness/jquery-ui-1.8.17.custom.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-
-    <style>
-        #dialog {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
@@ -26,19 +21,6 @@
     <span class="ui-button-text">Click me to open modal window</span>
 </button>
 
-<script>
-    $(document).ready(function () {
-        $('.open-modal').click(function() {
-            $("#dialog").dialog({
-                modal:true,
-                buttons:{
-                    Ok:function () {
-                        $(this).dialog("close");
-                    }
-                }
-            });
-        });
-    });
-</script>
+<script src="js/custom.js"></script>
 </body>
 </html>
