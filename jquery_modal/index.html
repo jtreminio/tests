@@ -4,6 +4,7 @@
     <title>jQuery Model Example</title>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
 
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="css/ui-lightness/jquery-ui-1.8.17.custom.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 
@@ -13,13 +14,35 @@
 
 <body>
 
+<div class="container">
+    <h1 class="title"><span>S</span>ample <span>T</span>itle</h1>
+    <div class="content">
+
+        <img src="img/bunny.jpg" width="141" height="165" alt="Bunny Rabbit Applauding" class="thumb" />
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+
+        <button type="button" class="open-modal">Button</button>
+    </div>
+</div>
+
 <div id="dialog" title="Hello World">
     <p>Hello World.</p>
 </div>
-
-<button class="open-modal ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
-    <span class="ui-button-text">Click me to open modal window</span>
-</button>
 
 <script src="js/custom.js"></script>
 </body>

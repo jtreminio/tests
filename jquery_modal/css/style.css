@@ -1,3 +1,85 @@
+body {
+    font: 14px/130% Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.container {
+    width: 610px;
+    margin: 15px auto;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border: 1px solid #000;
+
+    background-image: linear-gradient(bottom, rgb(172,172,172) 0%, rgb(191,191,191) 46%, rgb(226,226,226) 85%);
+    background-image: -o-linear-gradient(bottom, rgb(172,172,172) 0%, rgb(191,191,191) 46%, rgb(226,226,226) 85%);
+    background-image: -moz-linear-gradient(bottom, rgb(172,172,172) 0%, rgb(191,191,191) 46%, rgb(226,226,226) 85%);
+    background-image: -webkit-linear-gradient(bottom, rgb(172,172,172) 0%, rgb(191,191,191) 46%, rgb(226,226,226) 85%);
+    background-image: -ms-linear-gradient(bottom, rgb(172,172,172) 0%, rgb(191,191,191) 46%, rgb(226,226,226) 85%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(172,172,172)),
+        color-stop(0.46, rgb(191,191,191)),
+        color-stop(0.85, rgb(226,226,226))
+    );
+
+}
+
+.container h1.title {
+    padding: 0 10px;
+    background: #303030;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border: 1px solid #303030;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.container h1.title span {
+    font-size: 150%;
+}
+
+.container .content {
+    padding: 30px 14px;
+}
+
+.container .content > .thumb {
+    margin: 0 27px;
+    float: right;
+    border: 1px solid #29292a;
+}
+
+.open-modal {
+    padding: 11px 26px;
+    border: 1px solid #000;
+    background-image: linear-gradient(bottom, rgb(136,141,161) 0%, rgb(98,105,123) 46%, rgb(56,61,80) 85%);
+    background-image: -o-linear-gradient(bottom, rgb(136,141,161) 0%, rgb(98,105,123) 46%, rgb(56,61,80) 85%);
+    background-image: -moz-linear-gradient(bottom, rgb(136,141,161) 0%, rgb(98,105,123) 46%, rgb(56,61,80) 85%);
+    background-image: -webkit-linear-gradient(bottom, rgb(136,141,161) 0%, rgb(98,105,123) 46%, rgb(56,61,80) 85%);
+    background-image: -ms-linear-gradient(bottom, rgb(136,141,161) 0%, rgb(98,105,123) 46%, rgb(56,61,80) 85%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(136,141,161)),
+        color-stop(0.46, rgb(98,105,123)),
+        color-stop(0.85, rgb(56,61,80))
+    );
+    font-weight: bold;
+    font-size: 115%;
+    color: #fff;
+    cursor: pointer;
+}
+
 #dialog {
     display: none;
 }
